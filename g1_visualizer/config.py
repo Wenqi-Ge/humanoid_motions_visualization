@@ -9,8 +9,8 @@ import os
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # URDF路径
-URDF_PATH = os.path.join(PROJECT_ROOT, "asset_3/g1_test/g1/g1_29dof_rev_1_0.urdf")
-MESH_DIR = os.path.join(PROJECT_ROOT, "asset_3/g1_test/g1")
+URDF_PATH = os.path.join(PROJECT_ROOT, "assets/g1/g1_29dof_rev_1_0.urdf")
+MESH_DIR = os.path.join(PROJECT_ROOT, "assets/g1")
 
 # G1机器人关节名称 (29个自由度)
 JOINT_NAMES = [

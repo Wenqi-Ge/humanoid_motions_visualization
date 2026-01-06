@@ -12,3 +12,9 @@
  conda install -c conda-forge pinocchio
 
 ```
+
+# vis script
+
+```bash
+python g1_visualizer/main.py --file g1_ref_motions/accad_A3___Swing_t2.pkl
+```
